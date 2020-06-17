@@ -1,5 +1,7 @@
 # simple-mvc
 Simple implementation mvc application
+- Written in PSR-2 format
+- OOP
 
 ## Installation
  - Copy the contents of the repository to the working directory of the web server
