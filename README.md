@@ -20,7 +20,7 @@ Simple implementation mvc application
  
  Example theme - `./application/view/themes/light`
   
-## Available variables
+## Available global variables
  - In code
   ```php
   $this->route (Array with information: Controller, Action)
@@ -53,10 +53,10 @@ Simple implementation mvc application
  - then create and open file github.tpl (./application/views/themes/light/main/)
  - add this:
  ```php
-  {% block content %}
+  {% block content %} // require
 
   <p>This is github page</p>
 
-  {% endblock %}
+  {% endblock %} // require
  ```
  - Open your page http://example.com/github
